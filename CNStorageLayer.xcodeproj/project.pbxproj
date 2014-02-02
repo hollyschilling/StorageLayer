@@ -1,0 +1,553 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08696C38189E03E800AE23B0 /* CNTestComplexObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 08696C37189E03E800AE23B0 /* CNTestComplexObject.m */; };
+		08696C3A189E0B8600AE23B0 /* CNComplexTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 08696C39189E0B8600AE23B0 /* CNComplexTests.m */; };
+		08A9124B189451ED007AB8F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08A9124A189451ED007AB8F7 /* Foundation.framework */; };
+		08A91250189451ED007AB8F7 /* CNStorageLayer.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 08A9124F189451ED007AB8F7 /* CNStorageLayer.h */; };
+		08A91252189451ED007AB8F7 /* CNStorageLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 08A91251189451ED007AB8F7 /* CNStorageLayer.m */; };
+		08A91259189451EE007AB8F7 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08A91258189451EE007AB8F7 /* XCTest.framework */; };
+		08A9125A189451EE007AB8F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08A9124A189451ED007AB8F7 /* Foundation.framework */; };
+		08A9125C189451EE007AB8F7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08A9125B189451EE007AB8F7 /* UIKit.framework */; };
+		08A9125F189451EE007AB8F7 /* libCNStorageLayer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 08A91247189451ED007AB8F7 /* libCNStorageLayer.a */; };
+		08A91265189451EE007AB8F7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 08A91263189451EE007AB8F7 /* InfoPlist.strings */; };
+		08A91267189451EE007AB8F7 /* CNBasicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 08A91266189451EE007AB8F7 /* CNBasicTests.m */; };
+		08A9129D18945661007AB8F7 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 08A9129218945661007AB8F7 /* FMDatabase.m */; };
+		08A9129E18945661007AB8F7 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 08A9129418945661007AB8F7 /* FMDatabaseAdditions.m */; };
+		08A9129F18945661007AB8F7 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 08A9129618945661007AB8F7 /* FMDatabasePool.m */; };
+		08A912A018945661007AB8F7 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 08A9129818945661007AB8F7 /* FMDatabaseQueue.m */; };
+		08A912A118945661007AB8F7 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 08A9129A18945661007AB8F7 /* FMResultSet.m */; };
+		08A912A418946621007AB8F7 /* CNStorageLayerObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 08A912A318946621007AB8F7 /* CNStorageLayerObject.m */; };
+		08A912AB1894704C007AB8F7 /* CNPropertyDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 08A912AA1894704C007AB8F7 /* CNPropertyDescription.m */; };
+		08A912AE1894A67D007AB8F7 /* NSPredicate+CNStorageLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 08A912AD1894A67D007AB8F7 /* NSPredicate+CNStorageLayer.m */; };
+		08A912B21895E2C1007AB8F7 /* CNTestNumericObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 08A912B11895E2C1007AB8F7 /* CNTestNumericObject.m */; };
+		08A912B61895E756007AB8F7 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 08A912B51895E756007AB8F7 /* libsqlite3.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		08A9125D189451EE007AB8F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08A9123F189451ED007AB8F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08A91246189451ED007AB8F7;
+			remoteInfo = CNStorageLayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		08A91245189451ED007AB8F7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				08A91250189451ED007AB8F7 /* CNStorageLayer.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		08696C36189E03E800AE23B0 /* CNTestComplexObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CNTestComplexObject.h; sourceTree = "<group>"; };
+		08696C37189E03E800AE23B0 /* CNTestComplexObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CNTestComplexObject.m; sourceTree = "<group>"; };
+		08696C39189E0B8600AE23B0 /* CNComplexTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CNComplexTests.m; sourceTree = "<group>"; };
+		08A91247189451ED007AB8F7 /* libCNStorageLayer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCNStorageLayer.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		08A9124A189451ED007AB8F7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		08A9124E189451ED007AB8F7 /* CNStorageLayer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CNStorageLayer-Prefix.pch"; sourceTree = "<group>"; };
+		08A9124F189451ED007AB8F7 /* CNStorageLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNStorageLayer.h; sourceTree = "<group>"; };
+		08A91251189451ED007AB8F7 /* CNStorageLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CNStorageLayer.m; sourceTree = "<group>"; };
+		08A91257189451EE007AB8F7 /* CNStorageLayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CNStorageLayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		08A91258189451EE007AB8F7 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		08A9125B189451EE007AB8F7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		08A91262189451EE007AB8F7 /* CNStorageLayerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CNStorageLayerTests-Info.plist"; sourceTree = "<group>"; };
+		08A91264189451EE007AB8F7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		08A91266189451EE007AB8F7 /* CNBasicTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CNBasicTests.m; sourceTree = "<group>"; };
+		08A9128F18945661007AB8F7 /* CHANGES_AND_TODO_LIST.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CHANGES_AND_TODO_LIST.txt; sourceTree = "<group>"; };
+		08A9129018945661007AB8F7 /* CONTRIBUTORS.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CONTRIBUTORS.txt; sourceTree = "<group>"; };
+		08A9129118945661007AB8F7 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		08A9129218945661007AB8F7 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		08A9129318945661007AB8F7 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		08A9129418945661007AB8F7 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		08A9129518945661007AB8F7 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		08A9129618945661007AB8F7 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		08A9129718945661007AB8F7 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		08A9129818945661007AB8F7 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		08A9129918945661007AB8F7 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		08A9129A18945661007AB8F7 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		08A9129B18945661007AB8F7 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		08A9129C18945661007AB8F7 /* README.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.markdown; sourceTree = "<group>"; };
+		08A912A218946621007AB8F7 /* CNStorageLayerObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CNStorageLayerObject.h; sourceTree = "<group>"; };
+		08A912A318946621007AB8F7 /* CNStorageLayerObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CNStorageLayerObject.m; sourceTree = "<group>"; };
+		08A912A618946D43007AB8F7 /* CNStorageLayerObject+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CNStorageLayerObject+Private.h"; sourceTree = "<group>"; };
+		08A912A91894704C007AB8F7 /* CNPropertyDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CNPropertyDescription.h; sourceTree = "<group>"; };
+		08A912AA1894704C007AB8F7 /* CNPropertyDescription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CNPropertyDescription.m; sourceTree = "<group>"; };
+		08A912AC1894A67D007AB8F7 /* NSPredicate+CNStorageLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSPredicate+CNStorageLayer.h"; sourceTree = "<group>"; };
+		08A912AD1894A67D007AB8F7 /* NSPredicate+CNStorageLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSPredicate+CNStorageLayer.m"; sourceTree = "<group>"; };
+		08A912B01895E2C1007AB8F7 /* CNTestNumericObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CNTestNumericObject.h; sourceTree = "<group>"; };
+		08A912B11895E2C1007AB8F7 /* CNTestNumericObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CNTestNumericObject.m; sourceTree = "<group>"; };
+		08A912B51895E756007AB8F7 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		08A91244189451ED007AB8F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08A9124B189451ED007AB8F7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08A91254189451EE007AB8F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08A912B61895E756007AB8F7 /* libsqlite3.dylib in Frameworks */,
+				08A9125F189451EE007AB8F7 /* libCNStorageLayer.a in Frameworks */,
+				08A91259189451EE007AB8F7 /* XCTest.framework in Frameworks */,
+				08A9125C189451EE007AB8F7 /* UIKit.framework in Frameworks */,
+				08A9125A189451EE007AB8F7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08A9123E189451ED007AB8F7 = {
+			isa = PBXGroup;
+			children = (
+				08A9124C189451ED007AB8F7 /* CNStorageLayer */,
+				08A91260189451EE007AB8F7 /* CNStorageLayerTests */,
+				08A91249189451ED007AB8F7 /* Frameworks */,
+				08A91248189451ED007AB8F7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		08A91248189451ED007AB8F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				08A91247189451ED007AB8F7 /* libCNStorageLayer.a */,
+				08A91257189451EE007AB8F7 /* CNStorageLayerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		08A91249189451ED007AB8F7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				08A912B51895E756007AB8F7 /* libsqlite3.dylib */,
+				08A9128C18945661007AB8F7 /* FMDatabase */,
+				08A9124A189451ED007AB8F7 /* Foundation.framework */,
+				08A91258189451EE007AB8F7 /* XCTest.framework */,
+				08A9125B189451EE007AB8F7 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		08A9124C189451ED007AB8F7 /* CNStorageLayer */ = {
+			isa = PBXGroup;
+			children = (
+				08A912AF1894C550007AB8F7 /* Class Categories */,
+				08A912A218946621007AB8F7 /* CNStorageLayerObject.h */,
+				08A912A318946621007AB8F7 /* CNStorageLayerObject.m */,
+				08A912A91894704C007AB8F7 /* CNPropertyDescription.h */,
+				08A912AA1894704C007AB8F7 /* CNPropertyDescription.m */,
+				08A9124F189451ED007AB8F7 /* CNStorageLayer.h */,
+				08A91251189451ED007AB8F7 /* CNStorageLayer.m */,
+				08A9124D189451ED007AB8F7 /* Supporting Files */,
+			);
+			path = CNStorageLayer;
+			sourceTree = "<group>";
+		};
+		08A9124D189451ED007AB8F7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				08A9124E189451ED007AB8F7 /* CNStorageLayer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		08A91260189451EE007AB8F7 /* CNStorageLayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				08696C39189E0B8600AE23B0 /* CNComplexTests.m */,
+				08A91266189451EE007AB8F7 /* CNBasicTests.m */,
+				08A91261189451EE007AB8F7 /* Supporting Files */,
+				08A912B41895E2E0007AB8F7 /* Model Classes */,
+			);
+			path = CNStorageLayerTests;
+			sourceTree = "<group>";
+		};
+		08A91261189451EE007AB8F7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				08A91262189451EE007AB8F7 /* CNStorageLayerTests-Info.plist */,
+				08A91263189451EE007AB8F7 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		08A9128C18945661007AB8F7 /* FMDatabase */ = {
+			isa = PBXGroup;
+			children = (
+				08A9128F18945661007AB8F7 /* CHANGES_AND_TODO_LIST.txt */,
+				08A9129018945661007AB8F7 /* CONTRIBUTORS.txt */,
+				08A9129118945661007AB8F7 /* FMDatabase.h */,
+				08A9129218945661007AB8F7 /* FMDatabase.m */,
+				08A9129318945661007AB8F7 /* FMDatabaseAdditions.h */,
+				08A9129418945661007AB8F7 /* FMDatabaseAdditions.m */,
+				08A9129518945661007AB8F7 /* FMDatabasePool.h */,
+				08A9129618945661007AB8F7 /* FMDatabasePool.m */,
+				08A9129718945661007AB8F7 /* FMDatabaseQueue.h */,
+				08A9129818945661007AB8F7 /* FMDatabaseQueue.m */,
+				08A9129918945661007AB8F7 /* FMResultSet.h */,
+				08A9129A18945661007AB8F7 /* FMResultSet.m */,
+				08A9129B18945661007AB8F7 /* LICENSE.txt */,
+				08A9129C18945661007AB8F7 /* README.markdown */,
+			);
+			name = FMDatabase;
+			path = Dependencies/FMDatabase;
+			sourceTree = "<group>";
+		};
+		08A912AF1894C550007AB8F7 /* Class Categories */ = {
+			isa = PBXGroup;
+			children = (
+				08A912A618946D43007AB8F7 /* CNStorageLayerObject+Private.h */,
+				08A912AC1894A67D007AB8F7 /* NSPredicate+CNStorageLayer.h */,
+				08A912AD1894A67D007AB8F7 /* NSPredicate+CNStorageLayer.m */,
+			);
+			name = "Class Categories";
+			sourceTree = "<group>";
+		};
+		08A912B41895E2E0007AB8F7 /* Model Classes */ = {
+			isa = PBXGroup;
+			children = (
+				08A912B01895E2C1007AB8F7 /* CNTestNumericObject.h */,
+				08A912B11895E2C1007AB8F7 /* CNTestNumericObject.m */,
+				08696C36189E03E800AE23B0 /* CNTestComplexObject.h */,
+				08696C37189E03E800AE23B0 /* CNTestComplexObject.m */,
+			);
+			name = "Model Classes";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		08A91246189451ED007AB8F7 /* CNStorageLayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08A9126A189451EE007AB8F7 /* Build configuration list for PBXNativeTarget "CNStorageLayer" */;
+			buildPhases = (
+				08A91243189451ED007AB8F7 /* Sources */,
+				08A91244189451ED007AB8F7 /* Frameworks */,
+				08A91245189451ED007AB8F7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CNStorageLayer;
+			productName = CNStorageLayer;
+			productReference = 08A91247189451ED007AB8F7 /* libCNStorageLayer.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		08A91256189451EE007AB8F7 /* CNStorageLayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08A9126D189451EE007AB8F7 /* Build configuration list for PBXNativeTarget "CNStorageLayerTests" */;
+			buildPhases = (
+				08A91253189451EE007AB8F7 /* Sources */,
+				08A91254189451EE007AB8F7 /* Frameworks */,
+				08A91255189451EE007AB8F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				08A9125E189451EE007AB8F7 /* PBXTargetDependency */,
+			);
+			name = CNStorageLayerTests;
+			productName = CNStorageLayerTests;
+			productReference = 08A91257189451EE007AB8F7 /* CNStorageLayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08A9123F189451ED007AB8F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = CyanideHill;
+			};
+			buildConfigurationList = 08A91242189451ED007AB8F7 /* Build configuration list for PBXProject "CNStorageLayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 08A9123E189451ED007AB8F7;
+			productRefGroup = 08A91248189451ED007AB8F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				08A91246189451ED007AB8F7 /* CNStorageLayer */,
+				08A91256189451EE007AB8F7 /* CNStorageLayerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		08A91255189451EE007AB8F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08A91265189451EE007AB8F7 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		08A91243189451ED007AB8F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08A912A118945661007AB8F7 /* FMResultSet.m in Sources */,
+				08A912A018945661007AB8F7 /* FMDatabaseQueue.m in Sources */,
+				08A91252189451ED007AB8F7 /* CNStorageLayer.m in Sources */,
+				08A9129F18945661007AB8F7 /* FMDatabasePool.m in Sources */,
+				08A912AB1894704C007AB8F7 /* CNPropertyDescription.m in Sources */,
+				08A9129D18945661007AB8F7 /* FMDatabase.m in Sources */,
+				08A912A418946621007AB8F7 /* CNStorageLayerObject.m in Sources */,
+				08A912AE1894A67D007AB8F7 /* NSPredicate+CNStorageLayer.m in Sources */,
+				08A9129E18945661007AB8F7 /* FMDatabaseAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08A91253189451EE007AB8F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08696C38189E03E800AE23B0 /* CNTestComplexObject.m in Sources */,
+				08A91267189451EE007AB8F7 /* CNBasicTests.m in Sources */,
+				08A912B21895E2C1007AB8F7 /* CNTestNumericObject.m in Sources */,
+				08696C3A189E0B8600AE23B0 /* CNComplexTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		08A9125E189451EE007AB8F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 08A91246189451ED007AB8F7 /* CNStorageLayer */;
+			targetProxy = 08A9125D189451EE007AB8F7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		08A91263189451EE007AB8F7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08A91264189451EE007AB8F7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		08A91268189451EE007AB8F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		08A91269189451EE007AB8F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		08A9126B189451EE007AB8F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/CNStorageLayer.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CNStorageLayer/CNStorageLayer-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/CNStorageLayer/Dependencies/**",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		08A9126C189451EE007AB8F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/CNStorageLayer.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CNStorageLayer/CNStorageLayer-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/CNStorageLayer/Dependencies/**",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		08A9126E189451EE007AB8F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CNStorageLayer/CNStorageLayer-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CNStorageLayerTests/CNStorageLayerTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					XCTest,
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		08A9126F189451EE007AB8F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CNStorageLayer/CNStorageLayer-Prefix.pch";
+				INFOPLIST_FILE = "CNStorageLayerTests/CNStorageLayerTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					XCTest,
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		08A91242189451ED007AB8F7 /* Build configuration list for PBXProject "CNStorageLayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08A91268189451EE007AB8F7 /* Debug */,
+				08A91269189451EE007AB8F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08A9126A189451EE007AB8F7 /* Build configuration list for PBXNativeTarget "CNStorageLayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08A9126B189451EE007AB8F7 /* Debug */,
+				08A9126C189451EE007AB8F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08A9126D189451EE007AB8F7 /* Build configuration list for PBXNativeTarget "CNStorageLayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08A9126E189451EE007AB8F7 /* Debug */,
+				08A9126F189451EE007AB8F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08A9123F189451ED007AB8F7 /* Project object */;
+}
